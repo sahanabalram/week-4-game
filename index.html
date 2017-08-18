@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-center">Crystals Collector!</h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron">
+                <h2 class="text-center">Game Rules!!!</h2>
+                <p>You will be given a random number at the start of the game</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to the random number, and you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the crystal starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row" id="random-number-display">
+            <div class="col-md-6">
+                <div id="random-number"></div>
+
+            </div>
+        </div>
+        <div class="row">
+            <img id="red-crystal" src="http://www.clker.com/cliparts/W/z/S/M/Q/M/ruby-gemstone-md.png" alt="red-crystal">
+            <img id="white-crystal" src="http://sweetclipart.com/multisite/sweetclipart/files/imagecache/middle/diamond.png" alt="white-crystal">
+            <img id="green-crystal" src="http://www.clker.com/cliparts/H/3/e/K/5/l/emerald-emmy-a-hi.png" alt="green-crystal">
+            <img id="blue-crystal" src="http://www.clker.com/cliparts/8/0/6/d/11949889902017314491saphire_ganson.svg.hi.png" alt="blue-crystal">
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="total-score">
+                    <h2>Your total score is:</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="score">
+                    <h1>Score</h1>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+</body>
+
+</html>
