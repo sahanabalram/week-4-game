@@ -1,0 +1,24 @@
+#red-crystal ,#white-crystal, #green-crystal, #blue-crystal {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: tan;
+}
+
+body {
+    background-color: salmon;
+    font-family: monospace;
+}
+
+#random-number-display ,#total-score,.score{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+}
