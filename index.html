@@ -4,6 +4,7 @@
 <head>
     <title>Crystal Collector</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Raleway|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -11,8 +12,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="text-center">Crystals Collector!</h1>
-
+                <div id="title-main">
+                    <h1 id="title" class="text-center">Crystals Collector!</h1>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -32,33 +34,45 @@
                 <div id="random-number"></div>
 
             </div>
-        </div>
-        <div class="row">
-            <img id="red-crystal" src="http://www.clker.com/cliparts/W/z/S/M/Q/M/ruby-gemstone-md.png" alt="red-crystal">
-            <img id="white-crystal" src="http://sweetclipart.com/multisite/sweetclipart/files/imagecache/middle/diamond.png" alt="white-crystal">
-            <img id="green-crystal" src="http://www.clker.com/cliparts/H/3/e/K/5/l/emerald-emmy-a-hi.png" alt="green-crystal">
-            <img id="blue-crystal" src="http://www.clker.com/cliparts/8/0/6/d/11949889902017314491saphire_ganson.svg.hi.png" alt="blue-crystal">
 
         </div>
-
-
-
         <div class="row">
-            <div class="col-sm-12">
-                <div id="total-score">
-                    <h2>Your total score is:</h2>
+            <div class="col-sm-2">
+                <div id="win-main">
+                    <p>Wins:<span id="wins"></span></p>
                 </div>
-            </div>
-
-            <div class="col-sm-12">
-                <div class="score">
-                    <h1>Score</h1>
+                <div id="losses-main">
+                    <p>Losses:<span id="losses"></span></p>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="assets/javascript/game.js"></script>
+    </div>
+    <div class="row">
+        <img id="red-crystal" src="http://www.clker.com/cliparts/W/z/S/M/Q/M/ruby-gemstone-md.png" alt="red-crystal">
+        <img id="white-crystal" src="http://sweetclipart.com/multisite/sweetclipart/files/imagecache/middle/diamond.png" alt="white-crystal">
+        <img id="green-crystal" src="http://www.clker.com/cliparts/H/3/e/K/5/l/emerald-emmy-a-hi.png" alt="green-crystal">
+        <img id="blue-crystal" src="http://www.clker.com/cliparts/8/0/6/d/11949889902017314491saphire_ganson.svg.hi.png" alt="blue-crystal">
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="total-score">
+                <h2>Your total score is:</h2>
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="score">
+                <h1>Score</h1>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
     </div>
 </body>
 
