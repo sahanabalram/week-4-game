@@ -1,4 +1,7 @@
-#red-crystal ,#white-crystal, #green-crystal, #blue-crystal {
+#red-crystal,
+#white-crystal,
+#green-crystal,
+#blue-crystal {
     height: 100px;
     width: 100px;
     border: 1px solid black;
@@ -6,14 +9,36 @@
     background-color: tan;
 }
 
-body {
-    background-color: salmon;
-    font-family: monospace;
+#title {
+    color: black;
+    font-family: 'Noto Serif', serif;
+
+
+   
+}
+.jumbotron {
+    margin-top: 10px;
+    background-color: tan;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+#title-main {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: tan; 
+
 }
 
-#random-number-display,.score{
-    background-color: black;
-    color: white;
+body {
+    font-family: monospace;
+    background-image: url("../images/diamond-background.png");
+}
+
+#random-number-display,
+.score {
+    background-color: mediumaquamarine;
+    color: black;
     width: 30%;
     height: 30%;
     padding: 10px;
@@ -21,10 +46,14 @@ body {
     margin-bottom: 10px;
     margin-left: 0;
     margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #total-score {
-     margin-top: 15px;
+    margin-top: 15px;
     padding: 0px 150px 0px 0px;
-    color: black;
+    background-color: mediumaquamarine;
+    width: 30%;
+    color: color;
+    
 }
