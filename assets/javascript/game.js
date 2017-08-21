@@ -21,7 +21,7 @@ $(document).ready(function () {
             $('#message').html("<p>You lost!!!</p>");
             reset();
         } else {
-            $('#message').html("<p>Game in progress</p>");
+            $('#message').html("<p>Game in progress..</p>");
         }
     });
     $("#red-crystal").on("click", function () {
