@@ -12,12 +12,12 @@ $(document).ready(function () {
     $("#crystal").on("click", function () {
         if (total === storeNumber) {
             wins++;
-            $("#wins").html(wins,wins++);
+            $("#wins").html(wins);
             $('#message').html("<p>You won!!!</p>");
             reset();            
         } else if (total > storeNumber) {
             losses++;
-            $("#losses").html(losses,losses++);
+            $("#losses").html(losses);
             $('#message').html("<p>You lost!!!</p>");
             reset();
         } else {
